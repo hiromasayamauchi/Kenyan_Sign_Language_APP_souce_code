@@ -242,7 +242,7 @@ app.indexedDB.getWord = function (WORD) {
             wordMotion.appendChild(wmotion);
             wordRelated0.appendChild(wrelated0);
             wordRelated1.appendChild(wrelated1);
-            document.getElementById("wordPicture").src = result.picture;
+//            document.getElementById("wordPicture").src = result.picture;
             document.getElementById("wordMovie").src = result.movie;
             putLinkOnRelatedWord();
         };
